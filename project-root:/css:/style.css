@@ -1,0 +1,105 @@
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    background:#f5f5f5;
+    }
+    
+    header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:30px;
+    }
+    
+    .filters{
+    background:white;
+    padding:25px;
+    margin:25px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .filter-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+    margin-bottom:20px;
+    }
+    
+    label{
+    font-weight:bold;
+    display:block;
+    margin-bottom:5px;
+    }
+    
+    input,select{
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    }
+    
+    button{
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    }
+    
+    button:hover{
+    background:#1e40af;
+    }
+    
+    main{
+    padding:20px;
+    }
+    
+    #carContainer{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+    }
+    
+    .car-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:transform .2s;
+    }
+    
+    .car-card:hover{
+    transform:scale(1.03);
+    }
+    
+    .car-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    }
+    
+    .car-info{
+    padding:15px;
+    }
+    
+    .price{
+    color:#16a34a;
+    font-weight:bold;
+    font-size:18px;
+    }
+    
+    footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+    }
+    
+    #noResults{
+    text-align:center;
+    color:red;
+    font-weight:bold;
+    }
